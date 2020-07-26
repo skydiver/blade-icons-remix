@@ -1,0 +1,35 @@
+{
+    "name": "skydiver/blade-icons-remix",
+    "description": "Use Remix Icon with Blade Icons.",
+    "keywords": ["Laravel", "Blade", "Icons", "Remix"],
+    "homepage": "https://github.com/skydiver/blade-icons-remix",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martín M.",
+            "email": "skydiver@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "blade-ui-kit/blade-icons": "^0.4.3",
+        "illuminate/support": "^7.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skydiver\\BladeIconsRemix\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skydiver\\BladeIconsRemix\\BladeBladeIconsRemixServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
