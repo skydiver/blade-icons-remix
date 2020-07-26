@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Skydiver\\BladeIconsRemix\\BladeBladeIconsRemixServiceProvider"
+                "Skydiver\\BladeIconsRemix\\BladeIconsRemixServiceProvider"
             ]
         }
     },

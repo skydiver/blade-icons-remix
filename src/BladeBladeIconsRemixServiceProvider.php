@@ -1,11 +1,11 @@
 <?php
 
-namespace Skydiver\BladeBladeIconsRemix;
+namespace Skydiver\BladeIconsRemix;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
 
-final class BladeBladeIconsRemixServiceProvider extends ServiceProvider
+final class BladeIconsRemixServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
