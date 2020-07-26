@@ -1,6 +1,11 @@
 # Blade Icons: Remix Icon
 > Use Remix Icon with Blade Icons
 
+## Credits
+Icons made by [Remix-Design](https://github.com/Remix-Design/remixicon)
+
+For more information visit https://remixicon.com/
+
 ## Requirements
 - PHP 7.2 or higher
 - Laravel 7.14 or higher
