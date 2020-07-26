@@ -22,18 +22,18 @@ composer require skydiver/blade-icons-remix
 
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 ```blade
-<x-remix-hand-sanitizer-fill />
+<x-ri-hand-sanitizer-fill />
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-remix-ship-fill class="w-6 h-6 text-red-400 fill-current"/>
+<x-ri-ship-fill class="w-6 h-6 text-red-400 fill-current"/>
 ```
 
 And even use inline styles:
 ```blade
-<x-remix-home-heart-line style="width:64px; height:64px; fill:red" />
+<x-ri-home-heart-line style="width:64px; height:64px; fill:red" />
 ```
 
 ### Raw SVG Icons
