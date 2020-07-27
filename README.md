@@ -44,7 +44,7 @@ php artisan vendor:publish --tag=blade-icons-remix --force
 
 Then use them in your views like:
 ```blade
-<img src="{{ asset('vendor/blade-icons-remix/o-adjustments.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-icons-remix/cake-fill.svg') }}" width="64" height="64"/>
 ```
 
 ### Blade Icons
