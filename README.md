@@ -17,8 +17,8 @@ composer require skydiver/blade-icons-remix
 
 ## Usage
 1. goto https://remixicon.com/ and search for your icon
-2. use Blade components tag with `<x-remix-` prefix and icon name.
-3. if the icon is called `ri-briefcase-4-line` your component will be named `<x-remix-briefcase-4-line />`
+2. use Blade components tag with `<x-ri-` prefix and icon name.
+3. if the icon is called `ri-briefcase-4-line` your component will be named `<x-ri-briefcase-4-line />`
 
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 ```blade
