@@ -30,6 +30,10 @@
             "Tests\\": "tests"
         }
     },
+    "scripts": {
+        "phpcs": "./vendor/bin/phpcs --standard=PSR2 -v ./src",
+        "phpcbf": "./vendor/bin/phpcbf --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 -w -v ./src"
+    },
     "extra": {
         "laravel": {
             "providers": [
